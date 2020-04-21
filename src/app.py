@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 from bson import json_util
 from flask import jsonify
 app = Flask(__name__)
-app.config['MONGO_URI']='mongodb://localhost/pythonapiest/users'
+app.config['MONGO_URI']='mongodb://localhost/users'
 mongo = PyMongo(app)
 
 #RUTAS
